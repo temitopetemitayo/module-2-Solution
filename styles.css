@@ -1,0 +1,113 @@
+*{
+  box-sizing: border-box;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+
+p{
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 13px;
+  padding: 10px;
+}
+
+div.container1{
+  border: 2px solid black;
+  margin: 10px;
+  width: 400px;
+  height: 125px;
+  background-color: rgb(119, 111, 128);
+  float: left;
+  overflow: hidden;
+  
+}
+
+div.container2{
+  border: 2px solid black;
+  margin: 10px;
+  width: 400px;
+  height: 125px;
+  background-color: rgb(119, 111, 128);
+  float: left;
+  overflow: hidden;
+ 
+}
+
+
+div.container3{
+border: 2px solid black;
+margin: 10px;
+width: 400px;
+height: 125px;
+background-color: rgb(119, 111, 128);
+float: left;
+overflow: hidden;
+
+}
+
+div.menu1{
+  float: right;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  width:90px;
+  height: 20px;
+  overflow:hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; 
+  position: relative; bottom: 10px;
+  text-align: center;
+  background-color: #FF66B2;
+  color: black;
+  font-family: sans-serif, helvetica;
+}
+
+div.menu2{
+  float: right;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  width:90px;
+  height: 20px;
+  text-align: center;
+  position: relative; bottom: 10px;
+  background-color: #990000;
+  color: white;
+  font-family: sans-serif, helvetica;
+}
+
+div.menu3{
+  float: right;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  width:90px;
+  height: 20px;
+  text-align: center;
+  position: relative; bottom: 10px;
+  background-color: #FFE5CC;
+  font-family: sans-serif, helvetica;
+}
+/* For desktop */
+@media screen and (min-width:992px){
+  div.container1{
+  width: 32%;
+  float: left;
+  }
+  div.container2{
+  width: 32%;
+  float: left;
+  }
+  div.container3{
+  width: 32%;
+  float: left;
+  }
+}
+/* for tablets */
+@media screen and (min width:768px) and (max-width:991px){
+   div.container1{
+  width: 33.3%;
+}
